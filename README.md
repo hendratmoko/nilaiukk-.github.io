@@ -127,10 +127,10 @@ new Date("2026-04-01T09:10:00+07:00");
 
 const repos=[
 
-{ name:"Champion ", repo:"sorayaworld/champion-umkm" },
+{ name:"Champion MOKO", repo:"sorayaworld/champion-umkm" },
 { name:"Champion Calvin", repo:"[https://barahma123.github.io/web/" },
-{ name:"Champion Salsabella", repo:"sorayaworld/champion-mobile-umkm" },
-{ name:"Champion Amirudin", repo:"sorayaworld/champion-laravel" },
+{ name:"Champion Salsabella", repo:"" },
+{ name:"Champion Amirudin", repo:"" },
   { name:"Champion Wintolo", repo:"https://github.com/rplsmksanden/UKK2026" }
 
 ];
