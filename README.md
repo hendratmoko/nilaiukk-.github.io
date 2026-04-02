@@ -1,1 +1,344 @@
-# nilaiukk-.github.io
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>LKS LIVE COMPETITION DASHBOARD</title>
+
+<style>
+body{
+font-family:Arial;
+background:#fafafa;
+}
+
+h2{
+text-align:center;
+margin-bottom:5px;
+}
+
+#countdown{
+text-align:center;
+margin-bottom:15px;
+font-weight:bold;
+color:#555;
+}
+
+table{
+border-collapse:collapse;
+width:100%;
+}
+
+td,th{
+border:1px solid #ccc;
+padding:8px;
+font-size:14px;
+}
+
+th{
+background:#eee;
+}
+
+.empty{
+text-align:center;
+padding:20px;
+color:#666;
+font-style:italic;
+}
+</style>
+</head>
+<body>
+
+<h2 id="leader">🏆 Leading: Champion UMKM (0)</h2>
+<p id="countdown">Competition is running...</p>
+
+<table id="board">
+
+<tbody><tr>
+<th>Rank</th>
+<th>Repo</th>
+<th>Score</th>
+<th>Activity</th>
+<th>Idle</th>
+<th>Last Push</th>
+</tr>
+</tbody>
+
+<tbody><tr>
+
+<td>1</td>
+<td>Champion UMKM</td>
+<td><b>0/100</b></td>
+<td>🔥 Active Now</td>
+<td>OK</td>
+<td>0 min ago</td>
+
+</tr>
+
+</tbody>
+
+<tbody><tr>
+
+<td>2</td>
+<td>Champion Desktop</td>
+<td><b>0/100</b></td>
+<td>🔥 Active Now</td>
+<td>OK</td>
+<td>0 min ago</td>
+
+</tr>
+
+</tbody>
+
+<tbody><tr>
+
+<td>3</td>
+<td>Champion Mobile</td>
+<td><b>0/100</b></td>
+<td>🔥 Active Now</td>
+<td>OK</td>
+<td>0 min ago</td>
+
+</tr>
+
+</tbody>
+
+<tbody><tr>
+
+<td>4</td>
+<td>Champion Laravel</td>
+<td><b>0/100</b></td>
+<td>🔥 Active Now</td>
+<td>OK</td>
+<td>0 min ago</td>
+
+</tr>
+
+</tbody></table>
+
+<script>
+
+const COMPETITION_START =
+new Date("2026-04-01T09:10:00+07:00");
+
+
+const repos=[
+
+{ name:"Champion UMKM", repo:"sorayaworld/champion-umkm" },
+{ name:"Champion Desktop", repo:"sorayaworld/champion-desktop" },
+{ name:"Champion Mobile", repo:"sorayaworld/champion-mobile-umkm" },
+{ name:"Champion Laravel", repo:"sorayaworld/champion-laravel" }
+
+];
+
+
+function minutesAgo(date){
+
+let diff=Math.floor((new Date()-date)/60000);
+
+return diff+" min ago";
+
+}
+
+
+function activityStatus(date){
+
+let seconds=Math.floor((new Date()-date)/1000);
+
+if(seconds<300) return "🔥 Active Now";
+if(seconds<1800) return "🟢 Active";
+return "🟡 Slow";
+
+}
+
+
+function idleStatus(date){
+
+let seconds=Math.floor((new Date()-date)/1000);
+
+if(seconds>1800) return "🚨 Idle >30m";
+return "OK";
+
+}
+
+
+function updateCountdown(){
+
+let now=new Date();
+
+let diff=COMPETITION_START-now;
+
+if(diff<=0){
+
+document.getElementById("countdown").innerText =
+"Competition is running...";
+
+return;
+
+}
+
+let minutes=Math.floor(diff/60000);
+
+document.getElementById("countdown").innerText =
+"Competition starts in "+minutes+" minutes";
+
+}
+
+
+
+async function getCommitTime(repo){
+
+let cacheKey="commit_"+repo;
+
+let cached=localStorage.getItem(cacheKey);
+
+if(cached){
+
+let parsed=JSON.parse(cached);
+
+if(Date.now()-parsed.time<300000){
+return new Date(parsed.value);
+}
+
+}
+
+try{
+
+let data=await fetch(
+`https://api.github.com/repos/${repo}/commits/main`
+).then(r=>r.json());
+
+let commitTime=data.commit.author.date;
+
+localStorage.setItem(cacheKey,
+JSON.stringify({
+value:commitTime,
+time:Date.now()
+}));
+
+return new Date(commitTime);
+
+}catch{
+
+return new Date();
+
+}
+
+}
+
+
+
+async function loadDashboard(){
+
+const table=document.getElementById("board");
+
+table.innerHTML=`
+
+<tr>
+<th>Rank</th>
+<th>Repo</th>
+<th>Score</th>
+<th>Activity</th>
+<th>Idle</th>
+<th>Last Push</th>
+</tr>
+`;
+
+
+if(new Date()<COMPETITION_START){
+
+document.getElementById("leader").innerText =
+"⏳ Competition has not started yet";
+
+table.innerHTML+=`
+<tr>
+<td colspan="6" class="empty">
+Waiting for competition start time (09:10 WIB)
+</td>
+</tr>
+`;
+
+return;
+
+}
+
+
+let rows=[];
+
+
+for(let repo of repos){
+
+let score=0;
+
+try{
+
+let scoreData=await fetch(
+`https://raw.githubusercontent.com/${repo.repo}/main/public/score.json?cache=${Date.now()}`
+).then(r=>r.json());
+
+score=parseInt(scoreData.score)||0;
+
+}catch{}
+
+
+let commitTime=await getCommitTime(repo.repo);
+
+
+rows.push({
+
+name:repo.name,
+score:score,
+activity:activityStatus(commitTime),
+idle:idleStatus(commitTime),
+lastPush:minutesAgo(commitTime)
+
+});
+
+}
+
+
+rows.sort((a,b)=>b.score-a.score);
+
+
+rows.forEach((r,i)=>{
+
+table.innerHTML+=`
+
+<tr>
+
+<td>${i+1}</td>
+<td>${r.name}</td>
+<td><b>${r.score}/100</b></td>
+<td>${r.activity}</td>
+<td>${r.idle}</td>
+<td>${r.lastPush}</td>
+
+</tr>
+
+`;
+
+});
+
+
+if(rows.length>0){
+
+document.getElementById("leader").innerText=
+"🏆 Leading: "+rows[0].name+" ("+rows[0].score+")";
+
+}
+
+}
+
+
+
+updateCountdown();
+
+setInterval(updateCountdown,1000);
+
+loadDashboard();
+
+setInterval(loadDashboard,60000);
+
+</script>
+
+
+
+</body></html>
