@@ -2,7 +2,9 @@
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
-<title>LKS LIVE COMPETITION DASHBOARD</title>
+
+<!-- Komentar Anda
+  <title>LKS LIVE COMPETITION DASHBOARD</title>
 
 <style>
 body{
@@ -37,17 +39,20 @@ th{
 background:#eee;
 }
 
-.empty{
+.empty
+<!-- Komentar Anda -->{
 text-align:center;
 padding:20px;
 color:#666;
 font-style:italic;
 }
+
 </style>
 </head>
 <body>
 
-<h2 id="leader">🏆 Leading: Champion UMKM (0)</h2>
+
+<h2 id="leader">🏆 UKK XII 2026 (0)</h2>
 <p id="countdown">Competition is running...</p>
 
 <table id="board">
