@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 
 
-  <title>LKS LIVE COMPETITION DASHBOARD</title>
+  <title>UKK XII 2026</title>
 
 <style>
 body{
