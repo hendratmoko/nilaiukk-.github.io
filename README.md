@@ -131,7 +131,7 @@ const repos=[
 { name:"Champion Calvin", repo:"[https://barahma123.github.io/web/" },
 { name:"Champion Salsabella", repo:"sorayaworld/champion-mobile-umkm" },
 { name:"Champion Amirudin", repo:"sorayaworld/champion-laravel" },
-  { name:"Champion Wintolo", repo:"sorayaworld/champion-laravel" }
+  { name:"Champion Wintolo", repo:"https://github.com/rplsmksanden/UKK2026" }
 
 ];
 
