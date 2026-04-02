@@ -127,8 +127,8 @@ new Date("2026-04-01T09:10:00+07:00");
 
 const repos=[
 
-{ name:"Champion UMKM", repo:"sorayaworld/champion-umkm" },
-{ name:"Champion Desktop", repo:"sorayaworld/champion-desktop" },
+{ name:"Champion ", repo:"sorayaworld/champion-umkm" },
+{ name:"Champion Calvin", repo:"[https://barahma123.github.io/web/" },
 { name:"Champion Mobile", repo:"sorayaworld/champion-mobile-umkm" },
 { name:"Champion Laravel", repo:"sorayaworld/champion-laravel" }
 
