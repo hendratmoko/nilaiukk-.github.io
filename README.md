@@ -109,7 +109,7 @@ font-style:italic;
 <tbody><tr>
 
 <td>4</td>
-<td>Champion Laravel</td>
+<td>Champion Salsabella</td>
 <td><b>0/100</b></td>
 <td>🔥 Active Now</td>
 <td>OK</td>
@@ -129,8 +129,9 @@ const repos=[
 
 { name:"Champion ", repo:"sorayaworld/champion-umkm" },
 { name:"Champion Calvin", repo:"[https://barahma123.github.io/web/" },
-{ name:"Champion Mobile", repo:"sorayaworld/champion-mobile-umkm" },
-{ name:"Champion Laravel", repo:"sorayaworld/champion-laravel" }
+{ name:"Champion Salsabella", repo:"sorayaworld/champion-mobile-umkm" },
+{ name:"Champion Amirudin", repo:"sorayaworld/champion-laravel" },
+  { name:"Champion Wintolo", repo:"sorayaworld/champion-laravel" }
 
 ];
 
