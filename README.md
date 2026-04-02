@@ -1,4 +1,4 @@
-<!-- Komentar Anda 
+
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
@@ -46,7 +46,7 @@ padding:20px;
 color:#666;
 font-style:italic;
 }
-<!-- Komentar Anda -->
+
 </style>
 </head>
 <body>
