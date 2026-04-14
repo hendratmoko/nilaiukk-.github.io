@@ -56,7 +56,6 @@ font-style:italic;
 <p id="countdown">Competition is running...</p>
 
 <table id="board">
-
 <tbody><tr>
 <th>Nomor</th>
 <th>Nama</th>
