@@ -5,9 +5,6 @@
 <meta charset="UTF-8">
 
 
-<!-- Komentar Anda
-  <title>UKK XII 2026</title>
-
 
 <style>
 body{
@@ -53,9 +50,9 @@ font-style:italic;
 </style>
 </head>
 <body>
---->
 
-<h2 id="leader">🏆 UKK XII 2026 (0)</h2>
+
+<h2 id="leader">🏆 UKK XII 2026 SOFTWARE ENGINEERING</h2>
 <p id="countdown">Competition is running...</p>
 
 <table id="board">
