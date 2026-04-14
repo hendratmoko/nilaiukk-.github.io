@@ -5,12 +5,8 @@
 <meta charset="UTF-8">
 
 ## 🎵 My Favorite Music
-
 [![Play Music](https://img.shields.io/badge/▶️_Play_Music-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=N2q8_schirM)
 
-[![Klik untuk putar](https://img.youtube.com/vi/N2q8_schirM/0.jpg)](https://www.youtube.com/watch?v=N2q8_schirM)
-
-<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="250"/>
 
 <style>
 body{
