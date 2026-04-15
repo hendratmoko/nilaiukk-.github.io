@@ -134,6 +134,14 @@ font-style:italic;
 <td>	30	</td><td>	WAN M AL WALIYYU	</td><td><b>	Kompeten	</b></td><td>🔥 Active Now</td><td>OK</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	31	</td><td>	ZUHRI BAGAS ANDRI PRATAMA	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 
+
+
+
+Bagi yang belum Kompeten
+1. Bagi yang belum Kompeten, lengkapi dan perbagus produk GitHub (Repositori & io) serta Infinity
+2. Bagi yang belum terpenuhi, silahkan menghubungi Ketua Jurusan secepatnya.
+3. Batas waktu pemenuhan maksimal Rabu, 22 April 2026
+
 <!-- Komentar Anda
 <td>2</td>
 <td>Champion Desktop</td>
