@@ -136,11 +136,28 @@ font-style:italic;
 
 
 
+<div style="border:2px solid #ff9800; padding:15px; border-radius:10px;">
+  <h2 align="center">📢 PENGUMUMAN UKK</h2>
 
-Bagi yang belum Kompeten
-1. Bagi yang belum Kompeten, lengkapi dan perbagus produk GitHub (Repositori & io) serta Infinity, buat Flowchart & ERD upload ke dalam Repository kalian.
-2. Bagi yang belum terpenuhi, silahkan menghubungi Ketua Jurusan secepatnya.
-3. Batas waktu pemenuhan maksimal Rabu, 22 April 2026
+  <ol>
+    <li>
+      ❗ <b>Belum Kompeten?</b><br>
+      Lengkapi & perbagus <b>GitHub</b> (Repo & Pages) serta <b>Infinity</b>.<br>
+      Tambahkan <b>Flowchart</b> & <b>ERD</b>, lalu upload ke repository.
+    </li>
+    <br>
+    <li>
+      📞 <b>Belum terpenuhi?</b><br>
+      Segera hubungi <b>Ketua Jurusan</b>.
+    </li>
+    <br>
+    <li>
+      ⏰ <b>Deadline:</b> Rabu, 22 April 2026
+    </li>
+  </ol>
+
+  <p align="center"><b>💪 Tetap Semangat!</b></p>
+</div>
 
 <!-- Komentar Anda
 <td>2</td>
