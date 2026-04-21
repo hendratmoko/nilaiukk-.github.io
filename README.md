@@ -420,8 +420,10 @@ setInterval(loadDashboard,60000);
 
 </body></html>
  -->
+ <br><br>
+ <br><br>
 	REKAPITULASI						
-
-
+<br><br>
+<br><br>
 
 
