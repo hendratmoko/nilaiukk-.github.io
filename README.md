@@ -79,14 +79,14 @@ font-style:italic;
 <td>	8	</td><td>	CALVIN BARAHMA PUTRA	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	9	</td><td>	DEVI DWI NURAINI	</td><td><b>	Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	10	</td><td>	DIVA PUSPITADEWI	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
-<td>	11	</td><td>	FADLAN NUR ARIFIN	</td><td><b>	Tidak terpenuhi	</b></td><td>🔥 Active Now</td><td>DENIED</td><td>0 min ago</td></tr></tbody><tbody><tr>
+<td>	11	</td><td>	FADLAN NUR ARIFIN	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>DENIED</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	12	</td><td>	FADLI KUKUH ROHMAJATI	</td><td><b>	Kompeten	</b></td><td>🔥 Active Now</td><td>OK</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	13	</td><td>	FAFELLIO GIENOLA	</td><td><b>	Kompeten	</b></td><td>🔥 Active Now</td><td>OK</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	14	</td><td>	FAKHRI DZATU RAHMAN	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	15	</td><td>	FERRY NURISWAN YAZID	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	16	</td><td>	MARLINA SETYA NINGRUM	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	17	</td><td>	MARSELA AJENG LESTARI	</td><td><b>	Kompeten	</b></td><td>🔥 Active Now</td><td>OK</td><td>0 min ago</td></tr></tbody><tbody><tr>
-<td>	18	</td><td>	M ADITYA SAPUTRA	</td><td><b>	Tidak terpenuhi	</b></td><td>🔥 Active Now</td><td>DENIED</td><td>0 min ago</td></tr></tbody><tbody><tr>
+<td>	18	</td><td>	M ADITYA SAPUTRA	</td><td><b> Belum Kompeten	</b></td><td>🔥 Active Now</td><td>DENIED</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	19	</td><td>	MUTIA RIZKI KURNIAWATI	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	20	</td><td>	NADIF RAMADHANI	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	21	</td><td>	QURATUL YUDEA ATIQAH	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
@@ -96,7 +96,7 @@ font-style:italic;
 <td>	25	</td><td>	SAID AL HARIS	</td><td><b>	Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	26	</td><td>	SALSABILLA FITRI CHOIRUNNISA	</td><td><b>	Kompeten	</b></td><td>🔥 Active Now</td><td>OK</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	27	</td><td>	TAUFIQ KHAIRAN NAFI	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
-<td>	28	</td><td>	TEJO YUDIANTORO	</td><td><b>	Tidak terpenuhi	</b></td><td>🔥 Active Now</td><td>DENIED</td><td>0 min ago</td></tr></tbody><tbody><tr>
+<td>	28	</td><td>	TEJO YUDIANTORO	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>DENIED</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	29	</td><td>	TRI DITO PAMUNGKAS	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	30	</td><td>	TRI HAYYUNINGRUM	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
 <td>	31	</td><td>	ZAHRA NUR AZIZA	</td><td><b>	Belum Kompeten	</b></td><td>🔥 Active Now</td><td>Progress</td><td>0 min ago</td></tr></tbody><tbody><tr>
@@ -138,7 +138,7 @@ font-style:italic;
 
 
 Bagi yang belum Kompeten
-1. Bagi yang belum Kompeten, lengkapi dan perbagus produk GitHub (Repositori & io) serta Infinity
+1. Bagi yang belum Kompeten, lengkapi dan perbagus produk GitHub (Repositori & io) serta Infinity, buat Flowchart & ERD upload ke dalam Repository kalian.
 2. Bagi yang belum terpenuhi, silahkan menghubungi Ketua Jurusan secepatnya.
 3. Batas waktu pemenuhan maksimal Rabu, 22 April 2026
 
