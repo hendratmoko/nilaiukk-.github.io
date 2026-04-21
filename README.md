@@ -152,7 +152,7 @@ font-style:italic;
     </li>
     <br>
     <li>
-      ⏰ <b>Deadline:</b> Rabu, 22 April 2026
+      ⏰ <b>Deadline:</b> Rabu, 22 April 2026 21:00WIB
     </li>
   </ol>
 
